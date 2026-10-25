@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="40%" r="75%">
+      <stop offset="0" stop-color="#3a2258"/><stop offset="1" stop-color="#0a0610"/>
+    </radialGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#4affb0" stop-opacity=".55"/><stop offset="1" stop-color="#4affb0" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="beam" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#fff0c8" stop-opacity=".0"/><stop offset="1" stop-color="#fff0c8" stop-opacity=".35"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" fill="url(#bg)"/>
+  <circle cx="400" cy="96" r="44" fill="#ffe9a0" opacity=".9"/>
+  <circle cx="418" cy="84" r="40" fill="#2a1840"/>
+  <polygon points="256,470 120,170 392,170" fill="url(#beam)"/>
+  <circle cx="256" cy="230" r="190" fill="url(#glow)"/>
+  <path d="M256 92c-78 0-128 56-128 132v130c0 10 12 14 18 6l22-26 24 30c6 7 16 7 22 0l20-28 22 28c6 7 16 7 22 0l20-28 22 28c6 7 16 7 22 0l24-30 22 26c6 8 18 4 18-6V224c0-76-50-132-128-132z" fill="#d8fff0"/>
+  <ellipse cx="208" cy="214" rx="22" ry="31" fill="#1a0f22"/>
+  <ellipse cx="304" cy="214" rx="22" ry="31" fill="#1a0f22"/>
+  <circle cx="200" cy="202" r="8" fill="#fff"/><circle cx="296" cy="202" r="8" fill="#fff"/>
+  <path d="M210 278q46 34 92-6" stroke="#1a0f22" stroke-width="12" fill="none" stroke-linecap="round"/>
+  <path d="M276 282l10 22 8-26z" fill="#fff"/>
+  <ellipse cx="172" cy="256" rx="16" ry="9" fill="#ff9ab0" opacity=".6"/>
+  <ellipse cx="340" cy="256" rx="16" ry="9" fill="#ff9ab0" opacity=".6"/>
+</svg>
